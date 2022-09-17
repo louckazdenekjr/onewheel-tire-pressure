@@ -209,7 +209,7 @@ class mainWindow(tkinter.Tk):
             result_string = f"Optimal tire pressure: {str(pressure_bar)} bar ({str(pressure_psi)} PSI)"
 
             self.label_result.config(text = result_string)
-        except Exception:
+        except:
             result_string = "Incorrect rider weight entered."
             self.label_result.config(text = result_string)
 
