@@ -18,7 +18,7 @@ head over to -> [releases](https://github.com/louckazdenekjr/onewheel_tire_press
 
 ## Usage
 
-1. Enter your weight in pounds
+1. Enter your weight in KG(s)
 2. Select your riding preference
 3. Click calculate
 4. Adjust your tire pressure accordingly
