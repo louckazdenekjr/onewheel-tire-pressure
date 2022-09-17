@@ -2,9 +2,6 @@
 
 Recommends optimal tire pressure starting points based on weight and riding preference. The calculation is simply 1/10 of rider weight in PSI with an added coefficient.
 
-<!-- badges -->
-
-[![Build Status](https://travis-ci.org/brandoncc/onewheel_tire_pressure.svg?branch=master)](https://travis-ci.org/brandoncc/onewheel_tire_pressure)
 
 <!-- toc -->
 
