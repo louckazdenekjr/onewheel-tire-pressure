@@ -24,26 +24,20 @@ head over to -> [releases](https://github.com/louckazdenekjr/onewheel_tire_press
 4. Adjust your tire pressure accordingly
 
 ## features
+- [x] load riding preferences
 - [x] calculate optimal tire pressure
-- [x] save and load rider profiles
-- [x] save and load tire profiles
-- [x] save and load riding preferences
-- [x] save and load tire pressure profiles
+- [x] load tire pressure
 
 ## contributing
-- [ ] add more tire profiles
 - [ ] add more riding preferences
-- [ ] add more tire pressure profiles
-- [ ] add more rider profiles
 - [ ] add more languages
 - [ ] add more themes
-- [ ] add more features
 
 ## license
 [MIT](LICENSE) © Brandon C. Clark
 
 ## Contributors
 
-- [Louckaz Denek](https://github.com/louckazdenekjr) - creator and maintainer
+- [Loucka Zdenek](https://github.com/louckazdenekjr) - creator and maintainer
 - [Akshat](https://github.com/Akshat_unt) - 🙂
 
