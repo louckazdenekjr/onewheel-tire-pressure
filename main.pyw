@@ -8,7 +8,7 @@ def kgToLbs(weight_kg):
     return weight_kg * 2.2046226218
     
 def lbsToKg(weight_lbs):
-    return weight_kg / 2.2046226218
+    return weight_lbs / 2.2046226218
 
 def psiToBar(pressure_psi):
     return pressure_psi / 14.503773773
@@ -201,12 +201,13 @@ class mainWindow(tkinter.Tk):
     # define calculate pressure method to calculate optimal pressure
     def calculatePressure(self):
         try:
-            weight_kg = self.entry_weight.get() 
+            weight_kg = self.entry_weight.get()
             weight_kg = int(weight_kg)
-            
+
             pressure_bar, pressure_psi = recommendPressure(weight_kg, self.style_factor)
-            
-            result_string = "Optimal tire pressure: " + str(pressure_bar) + " bar (" + str(pressure_psi) + " PSI)"
+
+            result_string = f"Optimal tire pressure: {str(pressure_bar)} bar ({str(pressure_psi)} PSI)"
+
             self.label_result.config(text = result_string)
         except:
             result_string = "Incorrect rider weight entered."
@@ -215,8 +216,8 @@ class mainWindow(tkinter.Tk):
     # define show style method to update label and variable
     def showStyle(self, value):
         value = int(float(value))
-        value_string = "-> " + str(value) + " <-"
-        
+        value_string = f"-> {value} <-"
+
         self.label_style_3.config(text = value_string)
         self.style_factor = value
 
